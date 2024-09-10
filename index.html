@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <title>F4 Apartments</title>
+</head>
+
+<body>
+    <section class="heading d-flex flex-column justify-contents-between">
+        <header class="py-1 fixed-top bg-light px-md-3 px-lg-5">
+            <nav class="navbar navbar-expand-lg navbar-light py-2 mx-3 mx-lg-5 mx-md-4">
+                <a href="" class="navbar-brand text-decoration-none">F4 APARTMENTS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offCanvas-title text-decoration-none logo-font" id="#offcanvasNavbarLabel"> F4
+                            APARTMENTS</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 align-items-baseline">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Contact">Contact Us</a>
+                            </li>
+                            <li class="nav-item mx-md-3">
+                                <a class="nav-link" href="#"><button
+                                        class="btn-cta p-3 p-lg-2 rounded-3 text-light border-0">Book Room</button></a>
+                            </li>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class=" my-lg-5 mx-3 mx-lg-5 px-lg-5 px-md-3 mb-md-5" id="#Home">
+            <div class="row col-lg-9  my-5  align-items-end">
+                <div class="my-md-5 my-5">
+                    <h6 class=" fw-bold logo-fonta mb-3">THE TRUE DEFINITION OF HOSPITALITY</h6>
+                    <p class="text-light col-lg-5 col-md-6 mb-3">You've made the best choice to check on us, let's give
+                        you a one in a lifetime experience.</p>
+                    <button class="btn-cta p-3 p-lg-2 rounded-3 text-light border-0">Book Room</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- put CAROUSEL in this section below -->
+    <section class="carousel-height">
+        <div id="demo" class="carousel  slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./Images/Rooms.png"
+                        alt="Los Angeles" class="d-block w-100 h-auto img-height">
+                    <div class="carousel-caption">
+                        <h3>Los Angeles</h3>
+                        <p>We had such a great time in LA!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./Images/Environment.jpg"
+                        alt="Los Angeles" class="d-block w-100 h-auto img-height">
+                    <div class="carousel-caption">
+                        <h3>Los Angeles</h3>
+                        <p>We had such a great time in LA!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./Images/Internet.jpg" alt="Chicago"
+                        class="d-block w-100 h-auto img-height">
+                    <div class="carousel-caption text-light">
+                        <h3>Los Angeles</h3>
+                        <p>We had such a great time in LA!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./Images/Room Keeper.jpg" alt="New York"
+                        class="d-block w-100 h-auto img-height">
+                    <div class="carousel-caption text-light">
+                        <h3>Los Angeles</h3>
+                        <p>We had such a great time in LA!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./Images/Security.jpg" alt="New York"
+                        class="d-block w-100 h-auto img-height">
+                    <div class="carousel-caption text-light">
+                        <h3>Los Angeles</h3>
+                        <p>We had such a great time in LA!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./Images/Spa.jpg" alt="New York"
+                        class="d-block w-100 h-auto img-height">
+                    <div class="carousel-caption text-light">
+                        <h3>Los Angeles</h3>
+                        <p>We had such a great time in LA!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+    <section class="px-lg-5 my-5">
+        <div class="d-flex flex-column mx-5">
+            <h5 class="text-center text-gold mb-4">Our Reviews</h5>
+            <!-- review cards -->
+            <div class="d-flex flex-column flex-lg-row align-items-center gap-md-2 gap-lg-3">
+                <div class="d-flex flex-column flex-md-row gap-2 col-md-8 col-lg-6">
+                    <div class=" col-md-6">
+                        <div class="card rounded-3 mb-4 mb-md-0">
+                            <div class="card-body">
+                                <!-- image and name div -->
+                                <div class="card-body text-center d-flex align-items-center gap-4">
+                                    <img class="rounded-circle w-50 shadow my-3 img-fluid" alt="avatar2"
+                                        src="https://mdbcdn.b-cdn.net/img/new/avatars/3.webp" />
+                                    <div class="d-flex flex-column text-center">
+                                        <h6 class="card-title fw-bold">James Doe</h6>
+                                        <div class="d-flex gap-1">
+                                            <!--Star Icons Here-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="card-text">
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ipsum velit."
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- second card -->
+                    <div class=" col-md-6">
+                        <div class="card rounded-3 mb-4 mb-md-0">
+                            <div class="card-body">
+                                <!-- image and name div -->
+                                <div class="card-body text-center d-flex align-items-center gap-4">
+                                    <img class="rounded-circle w-50 shadow my-3 img-fluid" alt="avatar2"
+                                        src="https://mdbcdn.b-cdn.net/img/new/avatars/3.webp" />
+                                    <div class="d-flex flex-column text-center">
+                                        <h6 class="card-title fw-bold">James Doe</h6>
+                                        <div class="d-flex gap-1">
+                                            <!--Star Icons Here-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="card-text">
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ipsum velit."
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-md-row gap-2 col-md-8 col-lg-6">
+                    <!-- third card -->
+                    <div class=" col-md-6">
+                        <div class="card rounded-3 mb-4 mb-md-0">
+                            <div class="card-body">
+                                <!-- image and name div -->
+                                <div class="card-body text-center d-flex align-items-center gap-4">
+                                    <img class="rounded-circle w-50 shadow my-3 img-fluid" alt="avatar2"
+                                        src="https://mdbcdn.b-cdn.net/img/new/avatars/3.webp" />
+                                    <div class="d-flex flex-column text-center">
+                                        <h6 class="card-title fw-bold">James Doe</h6>
+                                        <div class="d-flex gap-1">
+                                            <!--Star Icons Here-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="card-text">
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ipsum velit."
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fourth card -->
+                    <div class=" col-md-6">
+                        <div class="card rounded-3 mb-4 mb-md-0">
+                            <div class="card-body">
+                                <!-- image and name div -->
+                                <div class="card-body text-center d-flex align-items-center gap-4">
+                                    <img class="rounded-circle w-50 shadow my-3 img-fluid" alt="avatar2"
+                                        src="https://mdbcdn.b-cdn.net/img/new/avatars/3.webp" />
+                                    <div class="d-flex flex-column text-center">
+                                        <h6 class="card-title fw-bold">James Doe</h6>
+                                        <div class="d-flex gap-1">
+                                            <!--Star Icons Here-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="card-text">
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ipsum velit."
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

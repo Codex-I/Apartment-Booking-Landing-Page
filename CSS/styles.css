@@ -1,0 +1,32 @@
+.heading {
+    background-image: url('../Images/The\ Lush\ and\ Luxurious\ Sanya\ EDITION\ on\ Hainan\ Island.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.logo-fonta {
+    font-size: 30px !important;
+    color: rgba(212, 152, 78, 0.867) !important;
+}
+
+.btn-cta {
+    background-color: rgba(212, 152, 78, 0.867) !important;
+}
+
+@media (min-width:768px) {
+    .logo-fonta {
+        font-size: 50px !important;
+        color: rgba(212, 152, 78, 0.867) !important;
+    }
+
+    .carousel-height {
+        min-height: 50% !important;
+    }
+
+    .img-height {
+        max-height: 70vh !important;
+        object-fit: cover !important;
+        filter: brightness(50%)!important;
+    }
+}
